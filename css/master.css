@@ -11,8 +11,23 @@ Version: 1.0
 
 */
 
+#about-img {
+  height: 400px;
+  width: 400px;
+  text-align: center;
+}
+
+#about-img img{
+  display: inline-block;
+}
 
 
+
+.body-container {
+  padding-left: 5%;
+  padding-right: 5%;
+  align-items: center;
+}
 
 #top-bar {
   background-color: black;
@@ -29,12 +44,13 @@ Version: 1.0
     color: pink;
 }
 
-#home-header-font1 {
-  font-family: 'Rouge Script', cursive;
+#home-header {
   text-align: center;
-  font-size: 4em;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
+}
+
+
+#home-header img {
+  display: inline-block;
 }
 
 #home-header-font2 {
@@ -189,17 +205,17 @@ margin-top: 0px;
 }
 
 #call-out1 {
-  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../img/call-out-1.jpg);
+  background: rgba(255,255,255,.5) url(../img/call-out-1.jpg);
   background-size: cover;
 }
 
 #call-out2 {
-  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../img/call-out-2.jpg);
+  background: rgba(255,255,255,.5) url(../img/call-out-2.jpg);
   background-size: cover;
 }
 
 #call-out3 {
-  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../img/call-out-3.jpg);
+  background: rgba(255,255,255,.5) url(../img/call-out-3.jpg);
   background-size: cover;
 }
 
@@ -208,7 +224,7 @@ margin-top: 0px;
   height: 20%;
   width: 50%;
   background-color: black;
-  color: white;
+  color: pink;
   font-family: 'open sans', sans-serif;
   font-weight: bold;
   padding: 6%;
