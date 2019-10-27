@@ -11,22 +11,15 @@ Version: 1.0
 
 */
 
-#about-img {
-  height: 400px;
-  width: 400px;
-  text-align: center;
-}
-
-#about-img img{
-  display: inline-block;
-}
-
-
 
 .body-container {
   padding-left: 5%;
   padding-right: 5%;
-  align-items: center;
+  text-align: center;
+}
+
+.body-container img {
+  display: inline-block;
 }
 
 #top-bar {
