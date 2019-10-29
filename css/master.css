@@ -37,19 +37,25 @@ Version: 1.0
     color: pink;
 }
 
-#home-header {
+#header {
   text-align: center;
+  height: 100vh;
 }
 
-
-#home-header img {
+#header-menu {
   display: inline-block;
+  height: 40%;
 }
+
+#header-menu img {
+  height: 80%;
+}
+
+
+
 
 #home-header-font2 {
-font-family: 'open sans', sans-serif;
 text-align: center;
-font-size: .8em;
 padding-top: 0px;
 margin-top: 0px;
 }
@@ -59,9 +65,8 @@ margin-top: 0px;
   text-align: center;
   font-family: 'open sans', sans-serif;
   font-weight: bold;
-  margin-bottom: 2%;
+  font-size: 1em;
 }
-
 
 
 #main-menu-list .pure-menu-item a:hover {
@@ -81,22 +86,21 @@ margin-top: 0px;
 
 /* Slideshow container */
 .slideshow-container {
-  max-height: 600px;
   position: relative;
-  margin: auto;
+  margin-top: 0px;
+  height: 53%;
 }
 
 /* Hide the images by default */
 .mySlides {
   display: none;
-  max-height: inherit;
+  height: 100%;
 }
 
 .mySlides img {
   width: 100%;
-  max-height: inherit;
+  height: 100%;
   object-fit: cover;
-  overflow: hidden;
 }
 
 /* Next & previous buttons */
@@ -119,6 +123,10 @@ margin-top: 0px;
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -144,6 +152,13 @@ margin-top: 0px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
+}
+
+.dots {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  margin-left: -25px;
 }
 
 /* The dots/bullets/indicators */
@@ -179,6 +194,7 @@ margin-top: 0px;
   from {opacity: .4}
   to {opacity: 1}
 }
+
 
 #call-outs {
   text-align: center;
